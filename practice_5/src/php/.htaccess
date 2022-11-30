@@ -1,0 +1,10 @@
+<Files admin.php>
+    AuthName "Login required"
+    AuthUserFile /var/www/html-dynamic/.htpasswd
+    AuthType Basic
+    Require valid-user
+</Files>
+<Files catalog.php>
+    Require all granted
+</Files>
+
